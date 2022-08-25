@@ -1,0 +1,181 @@
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+p {
+  line-height: 2;
+}
+
+h2 {
+  font-size: 64px;
+  font-family: "Caveat", cursive;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: normal;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  background-color: #e9e1d1;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.site-header {
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  color: #fff;
+  opacity: 0.9;
+  z-index: 999;
+}
+.site-header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header nav li {
+  float: left;
+  margin-left: 24px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 100%;
+}
+
+#top-banner,
+#about,
+#works,
+#skill,
+#contact {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+#about,
+#works,
+#skill,
+#contact {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  z-index: 2;
+}
+
+#about,
+#skill {
+  background-color: #e9e1d1;
+}
+
+#works,
+#contact {
+  background-color: #efeae4;
+}
+
+#top-banner {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/bg-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.top-title {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+.about-flex {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-in {
+  border-radius: 47% 43% 44% 44%/43% 42% 39% 42%;
+  min-width: 200px;
+  height: 200px;
+  border: solid 1px #333;
+}
+
+.circle-out {
+  border-radius: 44% 45% 48% 47%/39% 51% 42% 46%;
+  min-width: 200px;
+  height: 200px;
+  border: solid 1px #333;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.work {
+  background-color: #fff;
+  border: solid 1px #333;
+  border-radius: 184px 2px 185px 3px/2.5px 200px 5px 185px;
+  width: 30%;
+  height: 200px;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.skill {
+  background-color: #fff;
+  border: solid 1px #333;
+  border-radius: 184px 2px 185px 4px/2.5px 200px 5px 185px;
+  width: 48%;
+  height: 300px;
+}
+
+.site-footer {
+  height: 200px;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
