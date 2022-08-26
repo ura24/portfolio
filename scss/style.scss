@@ -56,11 +56,9 @@ body {
   top: 0;
   display: flex;
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.95;
   z-index: 999;
-  // background-color: #333;
-  // background-color: #553A21;
-  // background-color: #efefef;
+  transition: 0.3s;
 
   nav {
     display: flex;
@@ -72,6 +70,10 @@ body {
       margin-left: 24px;
     }
   }
+}
+
+.bg-header {
+  background-color: #333;
 }
 
 .container {

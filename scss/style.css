@@ -54,8 +54,9 @@ body {
   top: 0;
   display: flex;
   color: #fff;
-  opacity: 0.9;
+  opacity: 0.95;
   z-index: 999;
+  transition: 0.3s;
 }
 .site-header nav {
   display: flex;
@@ -65,6 +66,10 @@ body {
 .site-header nav li {
   float: left;
   margin-left: 24px;
+}
+
+.bg-header {
+  background-color: #333;
 }
 
 .container {
